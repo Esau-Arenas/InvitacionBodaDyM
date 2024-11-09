@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Boda Dany & Mishell</title>
+    <link rel="stylesheet" type="text/css" href="theme.css"> 
+    <link rel="stylesheet" type="text/css" href="./icons/css/all.min.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Quicksand&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+      <!-- Agrega un reproductor de audio oculto -->
+    <audio id="myAudio" autoplay loop style="display:none;">
+      <source src="./media/Por_Siempre.mp3" type="audio/mpeg">
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
+
+    <header class="header">
+      <h1 class="heading">
+        Dany & Mishell
+        <span class="heading-subtext"> Nos vamos a casar!!</span>
+      </h1>
+    </header>
+    <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">Confirmar Asistencia</a> 
+    <section class="section">
+      <h2 class="sub-heading">Nuestra historia</h2>
+      <p>Desde pequeños nos contaron que las mejores historias de pareja eran las de amor a primera vista, una chispa instantánea o una explosión; Pero cuando NOS CONOCIMOS entendimos que nos habían mentido.</p>
+      <p>Juntos descubrimos que las mejores historias de amor son: los viajes de descubrimiento mutuo, las historias que se construyen con paciencia y con tiempo.</p>
+      <p>Hoy agradecemos por todas esas conversaciones cotidianas, por esos momentos sencillos y por las risas que nos hicieron la distancia pequeña.</p>
+      <p>También nos contaron que, solo se ama lo que se conoce; pero en eso NO SE EQUIVOCARON, porque ahora que nos conocemos bien, podemos decir que NOS AMAMOS.</p>
+      <h5>Y juntos seguiremos construyendo nuestra historia de amor.</h5>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+              <img src="./img/novia.jpeg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./img/7.jpeg" class="card-img-top" alt="...">
+        </div>
+
+          <div class="carousel-item">
+              <img src="./img/hero3.jpg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="carousel-item">
+              <img src="./img/hero2.jpg" class="card-img-top" alt="...">
+          </div>
+
+
+          <div class="carousel-item">
+              <img src="./img/6.jpeg" class="card-img-top" alt="...">
+          </div>
+
+          <div class="carousel-item">
+              <img src="./img/2.jpg" class="card-img-top" alt="...">
+          </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+      <br>  
+     
+    </section>
+    
+      <h2 class="sub-heading">Detalles</h2>
+      <div class="details_cuando">
+        <i class="fas fa-calendar-check"></i>
+        <br>
+        <br>
+        <h3 class="details-heading">Cuando</h3>
+        <div id="contador">
+          <div id="dia"></div>
+          <div id="hora"></div>
+          <div id="minuto"></div>
+          <div id="segundo"></div> 
+        </div>
+        <h4>Diciembre 14, 2024   |   16:30 hrs</h4>
+        <a class="btn btn-success" title="Agregar a Calendario" rel="noopener" href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTg2NTk3MWsxY2VpazZsa25mYWdqc2YxcWcgZWFyZW5hczY2NUBt&tmsrc=earenas665%40gmail.com" target="_blank" rel="nofollow">Agregar a Calendario</a>
+      </div>
+      <section class="section">
+      <div class="details">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3 class="details-heading">Lugar</h3>
+        <p>Uraba, Barberena, Santa Rosa</p>
+        <img class="resort-image" src="./img/uraba.jpg" alt="Resort" />
+        <br>
+        <br>
+        <a class="btn btn-success" title="Ubicació" rel="noopener" href="https://maps.app.goo.gl/16rVgGyQdhbLxEqWA" target="_blank" rel="nofollow">Ubicación</a>
+      </div>
+      <!--<div class="details">
+        <i class="fas fa-suitcase"></i>
+        <h3 class="details-heading">Lodging</h3>
+        <p>DJ Jazzy Nupitals guitar acoustic bass embarrassing first aisle guitar acoustic bass cheers glitter . Macarena fish aisle aisle wedding, forever happy salad  drunk groomsman overpriced florist embarrassing coworkers tuxedo aisle guitar acoustic bass champagne bouquet. Ring wedding beautiful tuxedo fish toast, veil Bryna aisle centerpieces. Cheers embarrassing bouquet bouquet Bryna overpriced florist DJ Jazzy Nupitals Bryna macarena. DJ Jazzy Nupitals prime rib centerpieces centerpieces cake dessert, cake dessert tuxedo aisle seat covers aisle.</p>
+        <p>Church Will chicken unity sparkles Bryna cake dessert, centerpieces aisle Will debt guitar acoustic bass glitter . Magic sparkles father bridesmaid  champagne bouquet wedding mother. Magic first dancing fish chicken champagne debt mother guitar acoustic bass.</p>
+      </div>-->
+      
+      <!--<div class="details">
+        <i class="fas fa-asterisk"></i>
+        <h3 class="details-heading">Other Notes</h3>
+        <p>Cake dessert mother guitar acoustic bass cheers, uncle joe seat covers guitar acoustic bass macarena seat covers cake dessert embarrassing.</p>
+        <p>Also, your presence is the only present we desire. No gift required.</p>
+      </div>-->
+      <br>
+      <br>
+      <div class="details">
+        <i class="fas fa-reply"></i>
+        <h3 class="details-heading" id="rsvp">Confirmación de Asistencia</h3>
+        <form id="rsvpForm">
+          <div class="mb-3">
+            <p>Fecha limite de confirmación, 20 de noviembre</p>
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Con este nombre se reservará tu mesa</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Cantidad de personas</label>
+            <input type="number" class="form-control" id="Cantidad" min="1" step="1">
+          </div>
+          <button type="submit" class="btn btn-outline-success">Confirmar</button>
+        </form>
+        
+        <!-- Include Embedded link of Google Form here in place of # -->
+        <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
+      </div>
+    </section>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script defer>
+      var scroll = new SmoothScroll('a[href*="#"]');
+      var rsvpButton = document.getElementById('rsvpButton')
+      rsvpButton.addEventListener('click',hideButton,false);
+
+      function hideButton() {
+        rsvpButton.style.display = 'none';
+      }   
+    </script>
+
+<script>
+  document.getElementById('rsvpForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const nombre = document.getElementById('Nombre').value.trim();
+      const cantidad = document.getElementById('Cantidad').value.trim();
+
+      // Verifica que los campos no estén vacíos
+      if (!nombre || !cantidad) {
+          alert("Por favor, completa todos los campos antes de confirmar.");
+          return;
+      }
+
+      const mensaje = `*Confirmación de Asistencia*%0ABoda Dany y Mishell%0A%0ANombre: ${nombre}%0ACantidad de personas: ${cantidad}`;
+
+      // Reemplaza 'NUMERO_DESTINO' con el número de WhatsApp al que deseas enviar el mensaje
+      const numeroWhatsApp = '50231070785';
+      
+      // URL para el servicio de Click to Chat de WhatsApp
+      const url = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+
+      // Abrir la ventana de WhatsApp con el mensaje prellenado
+      window.open(url, '_blank');
+  });
+
+</script>
+
+<!-- Contador de dias -->
+<script>
+  // Define la fecha objetivo
+  const fechaObjetivo = new Date('2024-12-14');
+
+  function actualizarContador() {
+    // Obtiene la fecha actual
+    const fechaActual = new Date();
+
+    // Calcula la diferencia en milisegundos entre la fecha actual y la fecha objetivo
+    let diferencia = fechaObjetivo - fechaActual;
+
+    // Calcula los componentes de tiempo
+    const segundos = Math.floor(diferencia / 1000);
+    diferencia %= 1000;
+    const minutos = Math.floor(segundos / 60);
+    const horas = Math.floor(minutos / 60);
+    const dias = Math.floor(horas / 24);
+
+    // Actualiza el contenido del elemento HTML con el contador de días
+    document.getElementById('dia').innerHTML = `
+      <div><p>${dias}</p></div>
+      <div><p>Días</p></div>
+    `;
+    document.getElementById('hora').innerHTML = `
+      <div><p>${horas % 24}</p></div>
+      <div><p>Hrs</p></div>
+    `;
+    document.getElementById('minuto').innerHTML = `
+      <div><p>${minutos % 60}</p></div>
+      <div><p>Mins</p></div>
+    `;
+    document.getElementById('segundo').innerHTML = `
+      <div><p>${segundos % 60}</p></div>
+      <div><p>Secs</p></div>
+    `;
+  }
+  
+
+  // Llama a la función para actualizar el contador cada segundo
+  setInterval(actualizarContador, 1000);
+
+  // Llama a la función para actualizar el contador al cargar la página
+  actualizarContador();
+</script>
+
+<!-- Reproducir canción -->
+<script>
+  // Reproduce la canción automáticamente al cargar la página
+  window.addEventListener('load', function() {
+    document.getElementById('myAudio').play();
+  });
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-LN5LqgBl/XF3S9BEQzbo7GR2syMWEOp9Mkq4jDgZh/EJrs1dTVG9W8c8vHNo0iwL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-BcSZ9ZRnW3kDJ&L84+8N/ZCkz0WK8ycqtnVDBtB3k21TzU7WMeg3JEdmxRNo1IwP" crossorigin="anonymous"></script>
+
+  <footer class="footer ">
+    <p>© 2024 Esaú Arenas. Todos los derechos reservados.</p>
+    <p>Síguenos en:</p>
+    <a href="https://www.facebook.com/share/17zk6nsX3P/" target="_blank" class="social-link me-2"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/esau_arenas/profilecard/?igsh=c2ZpaWJscjc4dzhp" target="_blank" class="social-link me-2"><i class="fab fa-instagram"></i></a>
+  </footer>  
+
+  </body>
+</html>
