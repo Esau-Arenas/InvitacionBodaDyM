@@ -126,7 +126,11 @@
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Cantidad de personas</label>
-            <input type="number" class="form-control" id="Cantidad" min="1" step="1">
+            <select class="form-control" id="Cantidad">
+              <option value="" disabled selected>Selecciona una cantidad</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+            </select>
           </div>
           <button type="submit" class="btn btn-outline-success">Confirmar</button>
         </form>
@@ -135,6 +139,7 @@
         <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
       </div>
     </section>
+
     <script src="./js/smooth-scroll.polyfills.min.js"></script>
     <script defer>
       var scroll = new SmoothScroll('a[href*="#"]');
@@ -161,7 +166,7 @@
       const mensaje = `*Confirmación de Asistencia*%0ABoda Dany y Mishell%0A%0ANombre: ${nombre}%0ACantidad de personas: ${cantidad}`;
 
       // Reemplaza 'NUMERO_DESTINO' con el número de WhatsApp al que deseas enviar el mensaje
-      const numeroWhatsApp = '50231070785';
+      const numeroWhatsApp = '50256167085';
       
       // URL para el servicio de Click to Chat de WhatsApp
       const url = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
@@ -222,7 +227,10 @@
 <script>
   // Reproduce la canción automáticamente al cargar la página
   window.addEventListener('load', function() {
-    document.getElementById('myAudio').play();
+    const audio = document.getElementById('myAudio');
+    audio.play().catch(function(error) {
+    console.log("La reproducción automática está bloqueada por el navegador.", error);
+  });
   });
 </script>
 
